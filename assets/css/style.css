@@ -332,6 +332,7 @@ color:#fff;
 .home_bg{
 height:620px;
 position:relative;
+padding-top: 40px;
 }
 .home_bg::before {
 	background:rgba(0,0,0,0.6);
@@ -1243,3 +1244,14 @@ font-weight: 600;
 * 13.END SECTION TOP DESIGN
 * ----------------------------------------------------------------------------------------
 */
+.about-me-card {
+  margin-top: -12px;        /* move whole box a bit up */
+  background: #ffffff;      /* white card */
+  padding: 20px 24px;
+  border-radius: 10px;
+  box-shadow: 0 8px 24px rgba(0,0,0,0.08);
+}
+/* small responsive tweak */
+@media (max-width: 768px) {
+  .about-me-card { padding: 16px; margin-top: 0; }
+}
